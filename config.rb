@@ -41,6 +41,8 @@ configure :build do
   # activate :minify_javascript
 end
 
+activate :autoprefixer
+
 activate :external_pipeline,
   name: :webpack,
   source: './tmp/dist',
