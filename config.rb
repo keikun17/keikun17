@@ -43,6 +43,12 @@ end
 
 activate :autoprefixer
 
+# Middleman deploy to GH
+# https://github.com/middleman-contrib/middleman-deploy
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+end
+
 activate :external_pipeline,
   name: :webpack,
   source: './tmp/dist',

@@ -14,7 +14,7 @@ gem 'middleman-compass', '>= 4.0.0.rc.1'
 gem 'middleman', '>= 4.0.0.rc.1'
 gem 'middleman-livereload'
 
-gem 'middleman-gh-pages'
+gem 'middleman-deploy', github: 'middleman-contrib/middleman-deploy', branch: 'master'
 
 # Stylesheet gems
 gem 'middleman-autoprefixer'
