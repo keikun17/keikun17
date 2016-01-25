@@ -18,5 +18,3 @@ gem 'middleman-deploy', github: 'middleman-contrib/middleman-deploy', branch: 'm
 
 # Stylesheet gems
 gem 'middleman-autoprefixer'
-
-
