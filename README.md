@@ -29,3 +29,8 @@ Tests
 
 test files are inside `tests/javascripts`
 run tests with `npm test`
+
+Deploy
+---
+
+- `be middleman deploy`
